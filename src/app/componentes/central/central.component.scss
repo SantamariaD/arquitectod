@@ -1,0 +1,132 @@
+.h3-responsive {
+    font-size: 60px;
+    color: #0d47a1!important;
+    text-align: start;
+}
+
+.parr {
+    font-size: 20px;
+    color: #ffffff!important;
+    font-weight: 600;
+    text-align: start;
+}
+
+.borde-abajo {
+    height: 3px;
+    width: 60%;
+    background-color: #0d47a1;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+mdb-carousel-item {
+    background-color: rgba(20, 20, 20, .5)!important;
+}
+
+mdb-carousel-item img {
+    height: 100vh!important;
+}
+
+@media(max-width:450px) {
+    .h3-responsive {
+        font-size: 20px;
+    }
+    .parr {
+        font-size: 12px;
+    }
+}
+
+
+/*INICIO TEXTO  CENTRAL*/
+
+//font-family: 'DM Sans', sans-serif;
+//font-family: 'Staatliches', cursive;
+.texto-principal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+}
+
+.mayor {
+    font-size: 80px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    color: #0d47a1;
+}
+
+.menor {
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    color: #8a8a8a;
+    max-width: 600px;
+    text-align: justify;
+}
+
+.texto-secundario {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+}
+
+.secundario2 {
+    margin-top: 100px;
+}
+
+.menor1 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #8a8a8a;
+}
+
+@media(max-width:450px) {
+    .mayor {
+        font-size: 50px;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        color: #0d47a1;
+    }
+    .texto-secundario {
+        display: block!important;
+    }
+    .franja h3 {
+        font-size: 40px!important;
+    }
+    .texto-principal {
+        display: block;
+    }
+}
+
+
+/*FIN TEXTO  CENTRAL*/
+
+
+/*INICIO SECCION 2*/
+
+.clientes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+}
+
+.cliente,
+.cliente img {
+    width: 200px;
+    margin: 20px auto;
+}
+
+.franja {
+    background-color: #8a8a8a;
+    width: cover;
+    padding-top: 60px;
+    margin-bottom: 50px;
+}
+
+.franja h3 {
+    color: white;
+    font-size: 60px;
+}
+
+
+/*FIN SECCION 2*/
